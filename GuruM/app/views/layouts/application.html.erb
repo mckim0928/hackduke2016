@@ -15,7 +15,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top"> <b>Welcome!</b></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,14 +29,14 @@
                           </a>
                     </li>
                     <li>
-                      <%= link_to "Log Out", destroy_user_session_path, method: :delete  %>
+                      <%= link_to 'Log Out', destroy_user_session_path, method: :delete  %>
                     </li>
                     <% else %>
                     <li>
-                      <%= link_to "Join", new_user_registration_path %>
+                      <%= link_to 'Join', new_user_registration_path %>
                     </li>
                     <li>
-                      <%= link_to "Sign In", new_user_session_path %>
+                      <%= link_to 'Sign In', new_user_session_path %>
                     </li>
                     <% end %>
                 </ul>
@@ -51,8 +51,8 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">GuruM</h1>
                 <hr>
-                <p>A Cloud of Ideas</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <h4>A Cloud of Ideas</h4>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Start Matching</a>
             </div>
         </div>
     </header>
